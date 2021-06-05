@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    display: block;
+    height: 400px;
+    margin: 10%;
+    border: dotted;
+    border-color: gray;
+}
+
+.red_b {
+    display: block;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border: solid;
+    border-color: red;
+    left: 2%;
+    top: 5%;
+}
+
+.blue_b {
+    display: block;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border: solid;
+    border-color: blue;
+    left: 10%;
+    top: 14%;
+}
+
+.green_b {
+    display: block;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    border: solid;
+    border-color: greenyellow;
+    left: 18%;
+    top: 30%;
+}
+
+.red {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 8%;
+    top: 5%;
+    background-color: red;
+}
+.blue {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 11%;
+    top: -2%;
+    background-color: blue;
+}
+
+.green {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 14%;
+    top: -9%;
+    background-color: greenyellow;
+}
+
+.red_block{
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 8%;
+    top: 10%;
+    background-color: red;
+}
+
+.blue_block {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 11%;
+    top: -1%;
+    background-color: blue;
+    z-index: 1;
+}
+
+.green_block{
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    left: 15%;
+    top: -9%;
+    background-color: greenyellow;
+}
+
+.green_big {
+    display: block;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    display: block;
+    position: relative;
+    width: 95%;
+    height: 90%;
+    background-color: greenyellow;
+    top: 5%;
+    margin-top: -5%;
+    margin: auto;
+}
+
+.white_block {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    left: 10%;
+    top: 5%;
+}
+
+.white_block_two {
+    display: block;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+    float: right;
+}
+
+.news {
+    display: block;
+    height: 400px;
+    margin: 10%;
+    border: dotted;
+    border-color: gray;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.news_portal {
+    display: table;
+    flex-direction: column;
+    height: 5%;
+    width: 100%;
+    background-color: greenyellow;
+    border-bottom: solid;
+    border-color: greenyellow;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 2%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.text__news{
+    display: block;
+    flex-direction: column;
+    position: relative;
+    border: solid;
+    border-color: greenyellow;
+}
