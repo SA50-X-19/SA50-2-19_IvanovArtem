@@ -7,6 +7,7 @@
     text-decoration: none;
 }
 
+
 body {
     display: flex;
 
@@ -376,118 +377,5 @@ a {
     text-transform: uppercase;
 }
 
-.w {
-    color: #F7f7f7;
-}
 
-.footer--nav {
-    display: flex;
-    width: 500px;
-    height: 50px;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.text--panel {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.footer--nav_item {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 60px;
-    color: #F7f7f7;
-}
-
-
-.align-items-center {
-    align-items: center;
-}
-
-.w-250 {
-    width: 250px;
-}
-
-.w-200 {
-    width: 200px;
-}
-
-.w-150 {
-    width: 150px;
-}
-
-.w-100 {
-    width: 100px;
-}
-
-.h-50 {
-    height: 50px;
-}
-
-.social {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
-
-/* HOVER */
-
-.arrow:hover {
-    transform: scale(1.4, 1.4);
-    transition: 1s;
-}
-
-.send:hover {
-   background: #E39128;
-}
-.send:active{
-    background: #8F5613;
-}
-
-.items--logo:hover {
-    text-shadow: palegreen 2px 3px 4px;
-    transform: scale(1.1, 1.1);
-    transition: 1s;
-}
-
-.nav:hover {
-    text-shadow: palegreen 2px 3px 4px;
-    transform: scale(1.1, 1.1);
-    transition: 1s;
-}
-
-.carousel-item:hover {
-    transform: scale(1.1, 1.1);
-    transition: 1s;
-}
-
-.sign-in:hover {
-    text-shadow: palegreen 2px 3px 4px;
-    transform: scale(1.1, 1.1);
-    transition: 1s;
-}
-
-.donate:hover {
-    background: #E39128;
-    transform: scale(1.1, 1.1);
-    transition: 1s;
-}
-.donate:active{
-    background: #8F5613;
-}
-
-.footer--nav_item:hover {
-    text-shadow: palegreen 2px 3px 4px;
-    transform: scale(1.1, 1.1);
-    transition: 1s;
-}
-
-.social-item:hover {
-    transform: rotate(360deg);
-    transition: 1s;
-}
 
